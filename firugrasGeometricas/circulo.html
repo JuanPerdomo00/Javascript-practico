@@ -1,0 +1,75 @@
+<!-- 
+Calculadora figuras geometricas
+
+Copyright (C) 2022  jakepy <j4kyjak3@protonmail.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcula circulo</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./figuras.html">Inicio</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Calcula circulo</h1>
+    </header>
+
+    <main>
+      <section>
+        <form action="">
+          <h3>Diametro</h3>
+          <label for="radioDiametro"></label>
+          <input type="number" id="radioDiametro" placeholder="radio" />
+          <button type="button" onclick="calcularDiametroCirculo()">
+            Calcular diametro
+          </button>
+        </form>
+      </section>
+      <br />
+      <section>
+        <form action="">
+          <h3>Circunferencia</h3>
+          <label for="circunferencia"></label>
+          <input type="number" id="circunferencia" placeholder="radio" />
+          <button type="button" onclick="calcularCircunferenciaCirculo()">
+            Calcular circunferencia
+          </button>
+        </form>
+      </section>
+      <br />
+      <section>
+        <form action="">
+          <h3>Area</h3>
+          <label for="radioArea"></label>
+          <input type="number" id="radioArea" placeholder="radio" />
+          <button type="button" onclick="calcularAreaCirculo()">
+            Calcular area
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer>Create by: jakepy</footer>
+    <script src="./figuras.js"></script>
+  </body>
+</html>
