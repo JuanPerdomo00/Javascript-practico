@@ -1,0 +1,68 @@
+<!-- 
+Porsentajes y Descuentos 
+Copyright (C) 2022  jakepy <j4kyjak3@protonmail.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y Descuentos</title>
+</head>
+<body>
+   <header>
+    <h1>Calcula tu porsentaje y descuento</h1>
+    <p>Segundo taller</p>
+   </header>
+
+   <main>
+    <section>
+        <h2>Calcula el precio al pagar de tus productos</h2>
+        <form action="">
+            <label for="precio"></label>
+            <input type="number" id="precio" placeholder="Precio" />
+
+            <label for="descuento"></label>
+            <input type="number" id="descuento" placeholder="Descuento" />
+
+            <button type="button" onclick="botonCalcularPrecio()">Calcular Precio</button>
+
+            <p id="resultado"></p>
+        </form>
+    </section>
+
+    <section>
+        <h2>Calcula el precio a pagar con cupones de descuento</h2>
+        <p>Si no dispone de nungun cupon puede obtenerlo en nuestra lista. <a href="./cuponesDescuento/cupones.html">Click me</a></p>
+        <form action="">
+            <label for="precio2"></label>
+            <input type="number" id="precio2" placeholder="Precio" />
+
+            <label for="cupon"></label>
+            <input type="text" id="cupon" placeholder="Nombre Cupon">
+            <button type="button" onclick="validarCupon()">Calcular</button>
+
+            <p id="descuentop"></p>
+            <p id="error"></p>
+
+        </form>
+    </section>
+   </main>
+
+
+   <script src="./index.js"></script>
+</body>
+</html>
