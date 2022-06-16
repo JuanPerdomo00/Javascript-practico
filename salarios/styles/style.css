@@ -1,0 +1,11 @@
+body {
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.titulo {
+    color: #34eeddff;    
+    text-decoration: overline;   
+}
+
